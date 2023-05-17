@@ -1,6 +1,6 @@
 import React from "react";
 import "./Gallery.css";
-import img2 from "../Images/2.png"
+import img2 from "../Images/20.jpg"
 import img1 from "../Images/1.png"
 import img3 from "../Images/3.png"
 import img4 from "../Images/4.png"
@@ -12,11 +12,18 @@ import img9 from "../Images/9.png"
 import img10 from "../Images/10.png"
 import img11 from "../Images/11.png"
 import img12 from "../Images/12.png"
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 
 
 
 class Gallery extends React.Component {
+  componentDidMount() {
+    AOS.init();
+  }
+
+
   render() {
     return (
       <>
@@ -24,26 +31,41 @@ class Gallery extends React.Component {
           <h1>Our Gallery</h1>
           <div class="row">
             <div class="column">
-              <img src={img1} />
-              <img src={img2} />
-              <img src={img3} />
-              <img src={img4} />
+
+              <div data-aos="flip-up"><img src={img1} />
+              </div>
+              <div data-aos="flip-up"><img src={img2} />
+              </div>
+              <div data-aos="flip-up"><img src={img3} />
+              </div>
+              <div data-aos="flip-up"><img src={img4} />
+              </div>
+
+            
 
             </div>
             <div class="column">
-              <img src={img5} />
-              <img src={img6} />
-              <img src={img7} />
-              <img src={img8} />
+            <div data-aos="flip-up"><img src={img5} />
+              </div>
+              <div data-aos="flip-up"><img src={img6} />
+              </div>
+              <div data-aos="flip-up"><img src={img7} />
+              </div>
+              <div data-aos="flip-up"><img src={img8} />
+              </div>
 
             </div>
             <div class="column">
-              <img src={img9} />
-              <img src={img10} />
-              <img src={img11} />
-              <img src={img12} />
-            </div>
+            <div data-aos="flip-up"><img src={img9} />
+              </div>
+              <div data-aos="flip-up"><img src={img10} />
+              </div>
+              <div data-aos="flip-up"><img src={img11} />
+              </div>
+              <div data-aos="flip-up"><img src={img12} />
+              </div>
 
+            </div>
           </div>
         </div>
       </>

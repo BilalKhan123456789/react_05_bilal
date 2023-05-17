@@ -1,0 +1,146 @@
+[debug] [2023-05-13T19:59:50.734Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T19:59:50.737Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T19:59:50.738Z] CLI Version:   11.8.1
+[debug] [2023-05-13T19:59:50.739Z] Platform:      win32
+[debug] [2023-05-13T19:59:50.739Z] Node Version:  v16.18.0
+[debug] [2023-05-13T19:59:50.748Z] Time:          Sun May 14 2023 00:59:50 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T19:59:50.749Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T19:59:50.768Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T19:59:50.769Z] > authorizing via signed-in user (bk315818@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\J C\Desktop\New folder (3)\project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T20:00:51.958Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/availableProjects pageSize=100
+[debug] [2023-05-13T20:01:07.763Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/availableProjects 200
+[debug] [2023-05-13T20:01:07.764Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/availableProjects [omitted]
+[debug] [2023-05-13T20:01:12.784Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-13T20:01:25.990Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T20:01:25.995Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T20:01:25.996Z] CLI Version:   11.8.1
+[debug] [2023-05-13T20:01:25.996Z] Platform:      win32
+[debug] [2023-05-13T20:01:25.997Z] Node Version:  v16.18.0
+[debug] [2023-05-13T20:01:25.999Z] Time:          Sun May 14 2023 01:01:25 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T20:01:26.000Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T20:01:26.018Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T20:01:26.019Z] > authorizing via signed-in user (bk315818@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\J C\Desktop\New folder (3)\project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T20:01:38.386Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-05-13T20:01:59.492Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-05-13T20:02:04.511Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-13T20:02:38.052Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T20:02:38.057Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T20:02:38.058Z] CLI Version:   11.8.1
+[debug] [2023-05-13T20:02:38.059Z] Platform:      win32
+[debug] [2023-05-13T20:02:38.059Z] Node Version:  v16.18.0
+[debug] [2023-05-13T20:02:38.061Z] Time:          Sun May 14 2023 01:02:38 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T20:02:38.062Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T20:02:38.083Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T20:02:38.084Z] > authorizing via signed-in user (bk315818@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\J C\Desktop\New folder (3)\project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-05-13T20:02:50.449Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-05-13T20:03:11.529Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2023-05-13T20:03:16.552Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2023-05-13T20:04:34.306Z] ----------------------------------------------------------------------
+[debug] [2023-05-13T20:04:34.310Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-05-13T20:04:34.311Z] CLI Version:   11.8.1
+[debug] [2023-05-13T20:04:34.311Z] Platform:      win32
+[debug] [2023-05-13T20:04:34.311Z] Node Version:  v16.18.0
+[debug] [2023-05-13T20:04:34.319Z] Time:          Sun May 14 2023 01:04:34 GMT+0500 (Pakistan Standard Time)
+[debug] [2023-05-13T20:04:34.321Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-05-13T20:04:34.337Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-05-13T20:04:34.338Z] > authorizing via signed-in user (bk315818@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\J C\Desktop\New folder (3)\project
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-05-13T20:05:12.963Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-05-13T20:05:12.964Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"my pro","name":"11"}
+[debug] [2023-05-13T20:05:32.996Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\J C\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
